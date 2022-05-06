@@ -79,6 +79,7 @@
 }
 
 .description-technoryak {
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.555;
@@ -88,8 +89,6 @@
 
   color: $color-main;
   display: block;
-  padding: 12px 10px;
-  overflow-y: scroll;
   position: absolute;
   top: 0;
   background-color: rgba(33, 150, 243, 0.9);
@@ -97,11 +96,19 @@
   transform: translateY(100%);
   transition: transform $time-hover $cubic-for-all,
     opacity $time-hover $cubic-for-all;
+  padding: 12px 10px;
+  margin: 0;
+  overflow: hidden;
+
+  @media screen and (min-width: 480px) {
+    padding: 64px 24px;
+    font-size: 18px;
+    line-height: 1.556;
+  }
 
   .links:focus &,
   .links:hover & {
     opacity: 1;
     transform: translateY(0);
-    overflow-y: scroll;
   }
 }
