@@ -140,7 +140,6 @@
   &:focus {
     cursor: pointer;
     border: 2px solid $color-accent;
-    background-color: $color-accent;
   }
   .modal__accept--input:checked + & {
     background-color: $color-accent;

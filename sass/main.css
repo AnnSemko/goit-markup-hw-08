@@ -1268,6 +1268,9 @@ img {
 
 .advantages-container-carts {
   padding: 20px 24px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   background-color: #ffffff;
 }
 
@@ -1327,7 +1330,8 @@ img {
   width: 100%;
   color: #ffffff;
   display: block;
-  padding: 64px 24px;
+  padding: 12px 10px;
+  overflow-y: scroll;
   position: absolute;
   top: 0;
   background-color: rgba(33, 150, 243, 0.9);
@@ -1345,6 +1349,7 @@ img {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  overflow-y: scroll;
 }
 
 .backdrop {
@@ -1533,7 +1538,6 @@ img {
 .modal__figure:hover, .modal__figure:focus {
   cursor: pointer;
   border: 2px solid #2196f3;
-  background-color: #2196f3;
 }
 
 .modal__accept--input:checked + .modal__figure {
