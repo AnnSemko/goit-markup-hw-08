@@ -4,6 +4,7 @@
   line-height: 2;
   color: $color-title;
   margin-bottom: 4px;
+  letter-spacing: 0.06em;
 }
 
 .text-img {
@@ -93,10 +94,10 @@
   letter-spacing: 0.03em;
   height: 100%;
   width: 100%;
-
+  position: absolute;
   color: $color-main;
   display: block;
-  position: absolute;
+
   top: 0;
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
