@@ -30,6 +30,7 @@
 }
 
 .advantages-container-carts {
+  flex-grow: 1;
   padding: 20px 24px;
   background-color: $color-main;
 
@@ -68,7 +69,8 @@
 .links {
   width: 100%;
   height: 100%;
-  display: block;
+  display: flex;
+  flex-direction: column;
   transition: box-shadow $time-hover $cubic-for-all;
 
   &:hover,
