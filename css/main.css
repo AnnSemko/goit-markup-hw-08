@@ -851,8 +851,7 @@ img {
 
 .modal__accept--input:checked + .modal__figure {
   border-color: #2196f3;
-  background-image: url("/img/Vector-1.svg");
-  background-color: #2196f3;
+  background-image: url("/img/icon-check.svg");
   background-position: center;
   background-size: contain;
   background-origin: border-box;
