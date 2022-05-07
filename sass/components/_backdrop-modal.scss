@@ -141,17 +141,18 @@
     cursor: pointer;
     border: 2px solid $color-accent;
   }
-  .modal__accept--input:checked + & {
-    border-color: $color-accent;
-    background-image: url("/img/icon-check.svg");
-    // background-color: $color-accent;
-    // background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-origin: border-box;
-    border-color: transparent;
-  }
 }
+.modal__accept--input:checked + .modal__figure {
+  border-color: $color-accent;
+  background-image: url("/img/icon-check.svg");
+  background-color: $color-accent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: border-box;
+  border-color: transparent;
+}
+
 .modal__accept--input {
   -webkit-appearance: none;
   -moz-appearance: none;
