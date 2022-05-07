@@ -142,9 +142,10 @@
     border: 2px solid $color-accent;
   }
   .modal__accept--input:checked + & {
-    background-color: $color-accent;
+    border-color: $color-accent;
     background-image: url("/img/Vector-1.svg");
-    background-repeat: no-repeat;
+    background-color: $color-accent;
+    // background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-origin: border-box;

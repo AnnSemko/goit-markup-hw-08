@@ -850,9 +850,9 @@ img {
 }
 
 .modal__accept--input:checked + .modal__figure {
-  background-color: #2196f3;
+  border-color: #2196f3;
   background-image: url("/img/Vector-1.svg");
-  background-repeat: no-repeat;
+  background-color: #2196f3;
   background-position: center;
   background-size: contain;
   background-origin: border-box;
